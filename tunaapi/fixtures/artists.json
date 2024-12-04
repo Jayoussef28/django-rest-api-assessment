@@ -1,0 +1,11 @@
+[
+  {
+      "model": "tunaapi.artist",
+      "pk": 1,
+      "fields": {
+          "name": "Severus Snape",
+          "age": 28,
+          "bio": "wizard turned rapper"
+      }
+  }
+]
