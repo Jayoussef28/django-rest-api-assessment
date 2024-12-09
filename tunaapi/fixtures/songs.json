@@ -1,0 +1,12 @@
+[
+  {
+      "model": "tunaapi.song",
+      "pk": 1,
+      "fields": {
+          "title": "Avada Kedavra",
+          "artist": 1,
+          "album": "Dark Arts of A Rapper",
+          "length": 7
+      }
+  }
+]
