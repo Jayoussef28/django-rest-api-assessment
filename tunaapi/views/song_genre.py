@@ -30,9 +30,8 @@ class SongGenreView(ViewSet):
         song_genres = SongGenre.objects.all()
         serializer = SongGenreSerializer(song_genres, many=True)
         return Response(serializer.data)
-        
-
     
+
 class SongGenreSerializer(serializers.ModelSerializer):
     """JSON serializer for song genres
     """
